@@ -4,7 +4,9 @@
 
 **This exercise contains a class named LuckyRegistrationNumber with the following static method:**
 
-     checkRegistrationNumber(String):int     
+     checkRegistrationNumber(String):int 
+     
+      && ((Integer.parseInt(str[2])>=1000) && (Integer.parseInt(str[2])>=9999))    
 
 - The input parameter is a vehicle registration number and the output is -1, 0 or 1 based on below given rules.
 - If the Vehicle registration number is valid as per the below format the method should return 0, else -1 
